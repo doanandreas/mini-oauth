@@ -18,6 +18,6 @@ app.post("/oauth/token", getOauthToken);
 app.post("/oauth/resource", getResources);
 
 // Run app
-app.listen(35123, () => {
-  console.log("Listening on port 35123");
+app.listen(3000, () => {
+  console.log("Listening on port 3000");
 });
