@@ -9,9 +9,7 @@ const {
 } = require("./utils");
 
 const dummyEndpoint = (req, res) => {
-  client.get("visits", (err, visits) => {
-    res.send("visits: " + visits);
-  });
+  res.send("hi mom");
 };
 
 const getOauthToken = async (req, res) => {
